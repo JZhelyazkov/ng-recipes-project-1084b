@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "ng-recipes-project-1084b",
+    "staging": "ng-recipes-project-1084b"
+  },
+  "targets": {}
+}

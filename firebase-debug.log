@@ -1,0 +1,36 @@
+[debug] [2022-04-30T14:19:08.118Z] ----------------------------------------------------------------------
+[debug] [2022-04-30T14:19:08.120Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-04-30T14:19:08.121Z] CLI Version:   10.7.2
+[debug] [2022-04-30T14:19:08.121Z] Platform:      darwin
+[debug] [2022-04-30T14:19:08.121Z] Node Version:  v16.14.0
+[debug] [2022-04-30T14:19:08.123Z] Time:          Sat Apr 30 2022 17:19:08 GMT+0300 (Eastern European Summer Time)
+[debug] [2022-04-30T14:19:08.123Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-30T14:19:08.205Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-30T14:19:08.205Z] > authorizing via signed-in user (jordanasenovzhelyazkov@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-04-30T14:19:08.225Z] [hub] writing locator at /var/folders/n3/2kpwnv1x72l547wjl_x_t_9r0000gq/T/hub-ng-recipes-project-1084b.json
+[debug] [2022-04-30T14:19:08.238Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/sites 
+[debug] [2022-04-30T14:19:09.485Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/sites 200
+[debug] [2022-04-30T14:19:09.486Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/sites {"sites":[{"name":"projects/ng-recipes-project-1084b/sites/ng-recipes-project-1084b","defaultUrl":"https://ng-recipes-project-1084b.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-30T14:19:09.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/webApps/-/config [none]
+[debug] [2022-04-30T14:19:10.092Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/webApps/-/config 200
+[debug] [2022-04-30T14:19:10.092Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ng-recipes-project-1084b/webApps/-/config {"projectId":"ng-recipes-project-1084b","databaseURL":"https://ng-recipes-project-1084b-default-rtdb.firebaseio.com","storageBucket":"ng-recipes-project-1084b.appspot.com","apiKey":"AIzaSyCVLByTD-MM--I9_-LqXYuQVN3y02HvJco","authDomain":"ng-recipes-project-1084b.firebaseapp.com","messagingSenderId":"236421353179"}
+[info] i  hosting: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
